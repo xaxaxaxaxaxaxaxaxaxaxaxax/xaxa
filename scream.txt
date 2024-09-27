@@ -1,1 +1,65 @@
+getgenv().xaxa = {
+    ['General'] = {
+        ['Binding'] = {
+            ['Bind'] = Enum.KeyCode.Q,
+            ['Mode'] = "Toggle" -- Toggle, Hold
+        },
+        ['Aimbot FoV'] = {
+            ['Radius'] = 126,
+        },
+    },
+    
+    ['Targeting'] = {
+        ['Hit Part'] = "HumanoidRootPart",
+    },
+    
+    ['Prediction'] = {
+        ['Enabled'] = true,
+        ['Prediction Value'] = 0.1,
+        ['Auto Prediction'] = {
+            ['Enabled'] = false,
+            ['Configuration'] = {
+                ['30'] = 0.1130,
+                ['40'] = 0.13544,
+                ['50'] = 0.13575,
+                ['60'] = 0.13598,
+                ['70'] = 0.13892,
+                ['80'] = 0.1403,
+                ['90'] = 0.1446,
+                ['100'] = 0.1475,
+                ['110'] = 0.1502,
+            },
+        },
+        ['Jump Offset'] = -1.5,
+    },
+    
+    ['Camera'] = {
+        ['Smoothing'] = 1,
+    },
+    
+    ['Anti Ground Shots'] = {
+        ['Enabled'] = false,
+        ['Value'] = 0.5,
+    },
 
+    ['Triggerbot'] = {
+        ['Enabled'] = true,
+        ['Key'] = Enum.KeyCode.T,
+        ['Delay'] = 0.1,
+        ['Hold Time'] = 0.1,
+        ['Prediction'] = {
+            ['Enabled'] = true,
+            ['Value'] = 0.165,
+        },
+        ['FOV'] = 30,
+    },
+
+    ['Watermark'] = {
+        ['Enabled'] = true,
+        ['Title'] = "xaxa.larp streamable tapn",
+        ['Title Size'] = 15,
+        ['Color'] = Color3.fromRGB(75, 0, 130),
+        ['Outline'] = true,
+        ['Show Or Hide'] = Enum.KeyCode.V,
+    },
+}
