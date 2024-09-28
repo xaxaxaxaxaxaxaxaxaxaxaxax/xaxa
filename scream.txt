@@ -2,7 +2,7 @@ getgenv().xaxa = {
     ['General'] = {
         ['Binding'] = {
             ['Bind'] = Enum.KeyCode.Q,
-            ['Mode'] = "Toggle" -- Toggle, Hold
+            ['Mode'] = "Toggle"
         },
         ['Aimbot FoV'] = {
             ['Radius'] = 126,
@@ -61,5 +61,11 @@ getgenv().xaxa = {
         ['Color'] = Color3.fromRGB(75, 0, 130),
         ['Outline'] = true,
         ['Show Or Hide'] = Enum.KeyCode.V,
+    },
+
+    ['Auto Air'] = {
+        ['Enabled'] = true,
+        ['Keybind'] = Enum.KeyCode.C,
+        ['Delay'] = 0.1
     },
 }
